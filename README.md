@@ -6,11 +6,8 @@ a  collection of DRL-repo in Github
 | 2020.1.6 | 加入<span id='keras'>keras-rl</span> | 整理学院派资料和repo | v0.1 |
 | - | - | - | - |
 
-
-
 ---
-
-## 1. 深度强化学习]
+## 1. 深度强化学习
 ### [DRL_brief_course](https://github.com/Taospirit/DRL_brief_course)
 Deep Reinforcement Learning Course
 
@@ -46,10 +43,7 @@ Awesome Deep Reinforcement Learning
 ### [MARL-Papers](https://github.com/LantaoYu/MARL-Papers)
 多智能体的强化学习论文收集列表
 
-## TODO...
-
 ---
-
 ## 2. 强化学习
 ### [RL_brief_collection](https://github.com/Taospirit/DRL_brief_collection)
 
@@ -73,7 +67,6 @@ sutton第二版书的配套章节代码实现和学习
 ### [RL_solution_for_sutton_2nd](https://github.com/LyWangPX/Solutions-of-Reinforcement-Learning-An-Introduction-Sutton-2nd)
 **[未验证]** sutton第二版书部分章节问题答案
 
-## TODO...
 ---
 ## 3. 机器学习框架学习
 ### [Dive-into-DL-PyTorch](https://github.com/ShusenTang/Dive-into-DL-PyTorch)
