@@ -3,6 +3,7 @@ a  collection of DRL-repo in Github
 
 | 时间 | 改动 | TODO | 版本 |
 | :-----: | :-----: | :-----: | :-----:|
+| 2019.12.27 | init | todo | v0.1 | 
 | 2020.1.6 | 加入<span id='keras'>keras-rl</span> | 整理学院派资料和repo | v0.1 |
 | - | - | - | - |
 
