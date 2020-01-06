@@ -22,21 +22,21 @@ Awesome Deep Reinforcement Learning
 整理很完备清晰的深度强化学习算法列表
 
 ### [DRL_with_pytorch](https://github.com/Taospirit/DRL-with-pytorch)
-中科院自动化所大佬用Pytorch写的DRL实现， 算法完整， 章节清晰, 2019年。
+中科院自动化所大佬用Pytorch写的DRL实现， 算法完整， 章节清晰， 2019年。
 
 适合入手算法源码实践。
 
 ### [DRL_with_imp_pytorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
-另一个版本基于Pytorch的DRL算法实现，2019年。
+另一个版本基于Pytorch的DRL算法实现， 2019年。
 
 ### [DRL_with_tf_Morvan](https://github.com/Taospirit/DRL_with_tf_Morvan)
-强烈推荐！ 莫烦大佬的基于tensorflow的DRL算法实现。使用tf的中低层api实现网络。
+强烈推荐！ 莫烦大佬的基于tensorflow的DRL算法实现， 使用tf的中低层api实现网络。
 
 ### [Hands-On-Reinforcement-Learning-with-Python](https://github.com/PacktPublishing/Hands-On-Reinforcement-Learning-with-Python)
 《用Python动手做强化学习》配套代码
 
-### [[DRL_for_Keras](https://github.com/keras-rl/keras-rl)](#keras)
-高阶api实现的各种state-of-art的DRL算法，[主页](https://keras-rl.readthedocs.io/en/latest/)
+### [DRL_for_Keras](https://github.com/keras-rl/keras-rl)
+高阶api实现的各种state-of-art的DRL算法，[主页文档](https://keras-rl.readthedocs.io/en/latest/)
 
 提供封装好的接口直接使用
 
