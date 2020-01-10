@@ -13,9 +13,9 @@ a  collection of DRL-repo in Github
 ### UCL - RL Course by David Sliver
 [课程主页](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) \ [b站(熟肉)](https://www.bilibili.com/video/av45357759?p=1)
 
-    伦敦学院2015的经典课程， sutton体系。侧重RL的基本概念，没有深度RL方面的内容。偏重非深度的RL实现，重视数学证明convergence，以及value based RL。基本是把sutton的书精华提炼了一遍，大概学习路线是 agent-environment loop->MDP->Dynamic planning->Monte Carlo->TD->function approximation
+伦敦学院2015的经典课程， sutton体系。侧重RL的基本概念，没有深度RL方面的内容。偏重非深度的RL实现，重视数学证明convergence，以及value based RL。基本是把sutton的书精华提炼了一遍，大概学习路线是 agent-environment loop->MDP->Dynamic planning->Monte Carlo->TD->function approximation
 
-### 加州大学伯克利分校 - Deep RL Bootcamp
+### 加州大学伯克利分校 UCB - Deep RL Bootcamp
 [课程主页](https://sites.google.com/view/deep-rl-bootcamp/lectures)
 
 26-27 August 2017. UCB暑假课的课程，比较简洁全面的介绍一些RL方法。
@@ -25,9 +25,10 @@ CS 285: Deep Reinforcement Learning, Decision Making, and Control
 
 [Home Page]() \ [youtube(生肉)](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A) \ [b站(生肉)](https://www.bilibili.com/video/av66523922?p=1) \ [b站CS294-112(熟肉)](https://www.bilibili.com/video/av39816961?p=1)
 
-    这门课原来叫cs294，首先294是伯克利Special Topics的课号，AP开的课很多都是在294+section这样的课号下试水。今年294-11２深度增强学习已经获得正式课号改为CS285。课程反应了Sergey Levine和整伯克利RL的积累，独立于《RL Introduction》的教学体系自成一派。符号风格和体系不同于《RL Introduction》体系。
+这门课原来叫cs294，首先294是伯克利Special Topics的课号，AP开的课很多都是在294+section这样的课号下试水。今年294-11２深度增强学习已经获得正式课号改为CS285。课程反应了Sergey Levine和整伯克利RL的积累，独立于《RL Introduction》的教学体系自成一派。符号风格和体系不同于《RL Introduction》体系。
 
-    CS285的精髓在于各种RL前沿方向全方位的推导和展示。前半部分讲各种RL的基础算法，后半部分讲RL算法的各种衍生，应用，科研。课程基本可以分为DRL介绍+模仿学习、model free、model based、Exploration+迁移+多任务+Meta-learning等四大部分，一共有四个很有趣的assignment（比春季的更好了）。如果你看过david silver的视频并且有机器学习的基础，那么至少你在model free部分是没问题的。秋季课程其实降低了对RL基础的要求，课上推导过程比较清晰。这门课后半model based部分恰好是对david silver等当前已有的课程、书籍里讲的比较少的内容的非常大的补充，不过这部分要求比较高。
+CS285的精髓在于各种RL前沿方向全方位的推导和展示。前半部分讲各种RL的基础算法，后半部分讲RL算法的各种衍生，应用，科研。课程基本可以分为DRL介绍+模仿学习、model free、model based、Exploration+迁移+多任务+Meta-learning等四大部分，一共有四个很有趣的assignment（比春季的更好了）。如果你看过david silver的视频并且有机器学习的基础，那么至少你在model free部分是没问题的。秋季课程其实降低了对RL基础的要求，课上推导过程比较清晰。这门课后半model based部分恰好是对david silver等当前已有的课程、书籍里讲的比较少的内容的非常大的补充，不过这部分要求比较高。
+
 ### 斯坦福大学 Stanford [未验证]
 CS234: Reinforcement Learning  [Home Page](http://web.stanford.edu/class/cs234/index.html)
 
