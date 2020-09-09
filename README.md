@@ -112,6 +112,30 @@ sutton第二版书的配套章节代码实现和学习
 ## TODO...
 
 ---
+## 3. Scalable/Distributed RL 框架:
+### 1. APE-X
+- 用多个actor分布式的运行，加快学习效率
+- 引入分布式的PER，结合不同epsilon增加探索性
+- repo:
+[ape-x](https://github.com/younggyoseo/Ape-X) |
+[ape-x](https://github.com/uber-research/ape-x)
+
+### 2. R2D2
+
+
+### 3. IMPALA
+
+
+### 4. GA3C
+
+
+### 5. SEED_RL
+
+
+### 6. Agent57
+
+---
+
 ## 4. 仿真环境
 ### [gym](https://github.com/openai/gym)
 openai开发的经典环境， 安装简洁集成高效， 便于测试新算法。[主页](https://gym.openai.com/)
