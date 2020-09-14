@@ -118,8 +118,11 @@ sutton第二版书的配套章节代码实现和学习
 - 引入分布式的PER，结合不同epsilon增加探索性
 - repo:
 [ape-x](https://github.com/younggyoseo/Ape-X) |
-[ape-x](https://github.com/uber-research/ape-x)
-
+[ape-x](https://github.com/uber-research/ape-x) |
+[pytorch-distributed](https://github.com/jingweiz/pytorch-distributed) | 
+[Ape-X-DQN](https://github.com/praveen-palanisamy/Ape-X-DQN) | 
+[distributed_rlS](https://github.com/neka-nat/distributed_rl) | 
+[apex_dqn](https://github.com/omurammm/apex_dqn) | 
 ### 2. R2D2
 
 
