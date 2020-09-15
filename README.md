@@ -23,7 +23,7 @@ a  collection of DRL-repo in Github
 ### 加州大学伯克利分校 UCB - CS285 Fall 2019
 CS 285: Deep Reinforcement Learning, Decision Making, and Control
 
-[Home Page]() \ [youtube(生肉)](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A) \ [b站(生肉)](https://www.bilibili.com/video/av66523922?p=1) \ [b站CS294-112(熟肉)](https://www.bilibili.com/video/av39816961?p=1)
+[Home Page](http://rail.eecs.berkeley.edu/deeprlcourse/) \ [youtube(生肉)](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A) \ [b站(生肉)](https://www.bilibili.com/video/av66523922?p=1) \ [b站CS294-112(熟肉)](https://www.bilibili.com/video/av39816961?p=1)
 
 这门课原来叫cs294，首先294是伯克利Special Topics的课号，AP开的课很多都是在294+section这样的课号下试水。今年294-11２深度增强学习已经获得正式课号改为CS285。课程反应了Sergey Levine和整伯克利RL的积累，独立于《RL Introduction》的教学体系自成一派。符号风格和体系不同于《RL Introduction》体系。
 
@@ -74,6 +74,15 @@ OpenAI Baselines is a set of high-quality implementations of reinforcement learn
 基于baseline，已经训练好的库。推荐中期学习使用
 ### [MARL-Papers](https://github.com/LantaoYu/MARL-Papers)
 多智能体的强化学习论文收集列表
+
+### DQN and variants & Rainbow:
+- [DeepRL-Tutorials](https://github.com.cnpmjs.org/qfettes/DeepRL-Tutorials)
+- [Reinforcement-Implementation](https://github.com/zhangchuheng123/Reinforcement-Implementation)(张楚珩)
+- [Rainbow](https://github.com/Kaixhin/Rainbow)
+
+### SAC:
+- [pytorch-soft-actor-critic](https://github.com/pranz24/pytorch-soft-actor-critic)
+- [RL-Mapless-Navigation](https://github.com/jerrywiston/RL-Mapless-Navigation)
 
 ---
 ## 2. 强化学习
