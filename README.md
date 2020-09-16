@@ -154,7 +154,9 @@ DeepMind: A customisable 3D platform for agent-based AI research.
 
 ### [Marathon Environments](https://github.com/Unity-Technologies/marathon-envs)
 A set of high-dimensional continuous control environments for use with Unity ML-Agents Toolkit.
+
 --
+
 ## 5. Game Reinforcement Learning
 ### 1. Atari
 
