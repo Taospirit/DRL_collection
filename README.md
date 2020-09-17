@@ -23,12 +23,7 @@ a  collection of DRL-repo in Github
 ### 加州大学伯克利分校 UCB - CS285 Fall 2019
 CS 285: Deep Reinforcement Learning, Decision Making, and Control
 
-<<<<<<< HEAD
 [Home Page](http://rail.eecs.berkeley.edu/deeprlcourse/) \ [youtube(生肉)](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A) \ [b站(生肉)](https://www.bilibili.com/video/av66523922?p=1) \ [b站CS294-112(熟肉)](https://www.bilibili.com/video/av39816961?p=1)
-=======
-[Home Page]() \ [youtube(生肉)](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A) \ [b站(生肉)](https://www.bilibili.com/video/av66523922?p=1) \ [b站CS294-112(熟肉)](https://www.bilibili.com/video/av39816961?p=1) \ 
-[Homework_repo](https://github.com/Observerspy/CS294)
->>>>>>> 55de0f3ceb99d5ae749baa831a5ef6faac155050
 
 这门课原来叫cs294，首先294是伯克利Special Topics的课号，AP开的课很多都是在294+section这样的课号下试水。今年294-11２深度增强学习已经获得正式课号改为CS285。课程反应了Sergey Levine和整伯克利RL的积累，独立于《RL Introduction》的教学体系自成一派。符号风格和体系不同于《RL Introduction》体系。
 
@@ -179,3 +174,8 @@ A set of high-dimensional continuous control environments for use with Unity ML-
 - [DQN-Atari-Pong](https://github.com/mmuppidi/DQN-Atari-Pong)(tf)
 - [pytorch-a2c-ppo-acktr-gail](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail)
 - [ReinforcementLearning-AtariGame](https://github.com/Nasdin/ReinforcementLearning-AtariGame)
+
+
+## 6.企业发布的框架
+1. PARL
+- [PARL](https://github.com/PaddlePaddle/PARL)
