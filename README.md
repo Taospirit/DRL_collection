@@ -186,7 +186,9 @@ DeepMind: A customisable 3D platform for agent-based AI research.
 
 ### [Marathon Environments](https://github.com/Unity-Technologies/marathon-envs)
 A set of high-dimensional continuous control environments for use with Unity ML-Agents Toolkit.
+
 --
+
 ## 5. Game Reinforcement Learning
 ### 1. Atari
 
@@ -196,3 +198,8 @@ A set of high-dimensional continuous control environments for use with Unity ML-
 - [DQN-Atari-Pong](https://github.com/mmuppidi/DQN-Atari-Pong)(tf)
 - [pytorch-a2c-ppo-acktr-gail](https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail)
 - [ReinforcementLearning-AtariGame](https://github.com/Nasdin/ReinforcementLearning-AtariGame)
+
+
+## 6.企业发布的框架
+1. PARL
+- [PARL](https://github.com/PaddlePaddle/PARL)
