@@ -6,7 +6,15 @@ a  collection of DRL-repo in Github
 | 2019.12.27 | init | todo | v0.1 |
 | 2020.1.6 | 加入keras-rl | 整理学院派资料和repo | v0.1 |
 | 2020.1.10 | 整理学院派资料， 加入baselines | todo | v0.2 |
+| 2020.10.11| 加入自己写的库和曾伊言的库 | TODO | v0.2|
 | - | - | - | - |
+
+## 值得关注的github个人：
+- [Sebastian Dittert](https://github.com/BY571)
+- [YonV1943 曾伊言](https://github.com/Yonv1943)
+- [The Raven Chaser](https://github.com/xlnwel)
+- [Johnny He](https://github.com/sweetice)
+
 ---
 ## 0. 学院派资料(北美)
 很多资料都整理了这块的内容，我再简单的理清楚一下吧， 附带一些其他人的评价。
@@ -23,12 +31,7 @@ a  collection of DRL-repo in Github
 ### 加州大学伯克利分校 UCB - CS285 Fall 2019
 CS 285: Deep Reinforcement Learning, Decision Making, and Control
 
-<<<<<<< HEAD
 [Home Page](http://rail.eecs.berkeley.edu/deeprlcourse/) \ [youtube(生肉)](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A) \ [b站(生肉)](https://www.bilibili.com/video/av66523922?p=1) \ [b站CS294-112(熟肉)](https://www.bilibili.com/video/av39816961?p=1)
-=======
-[Home Page]() \ [youtube(生肉)](https://www.youtube.com/playlist?list=PLkFD6_40KJIwhWJpGazJ9VSj9CFMkb79A) \ [b站(生肉)](https://www.bilibili.com/video/av66523922?p=1) \ [b站CS294-112(熟肉)](https://www.bilibili.com/video/av39816961?p=1) \ 
-[Homework_repo](https://github.com/Observerspy/CS294)
->>>>>>> 55de0f3ceb99d5ae749baa831a5ef6faac155050
 
 这门课原来叫cs294，首先294是伯克利Special Topics的课号，AP开的课很多都是在294+section这样的课号下试水。今年294-11２深度增强学习已经获得正式课号改为CS285。课程反应了Sergey Levine和整伯克利RL的积累，独立于《RL Introduction》的教学体系自成一派。符号风格和体系不同于《RL Introduction》体系。
 
@@ -41,7 +44,7 @@ CS239 Sequential Decision Making [Home Page](https://web.stanford.edu/class/aa22
 
 AA228/CS238 Decision Making under Uncertainty [Home Page](https://web.stanford.edu/class/aa228/cgi-bin/wp/)
 
-## 1. 深度强化学习
+## 1. 深度强化学习(经典算法)
 ### [DRL_brief_course](https://github.com/Taospirit/DRL_brief_course)
 Deep Reinforcement Learning Course
 
@@ -49,11 +52,17 @@ Deep Reinforcement Learning Course
 ### [DRL_algorithms_lists](https://github.com/tigerneil/awesome-deep-rl)
 整理很完备清晰的深度强化学习算法列表
 ### [DRL_with_pytorch](https://github.com/Taospirit/DRL-with-pytorch)
-适合入手算法源码实践！ 中科院自动化所大佬用Pytorch写的DRL实现， 算法完整， 章节清晰， 2019年。 
+适合入手算法源码实践！ 中科院自动化所“老实人”用Pytorch写的DRL实现， 基础算法完整， 章节清晰， 2019年。 (最近好像大佬在准备重构hhhh)
+
+### [ElegantRL](https://github.com/Yonv1943/ElegantRL)
+深圳先进院曾伊言的作品，主打轻量化和可复现的RL算法，3个python文件完成，适合入门\中期代码实践时参考。
+
 ### [DRL_with_imp_pytorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
 另一个版本基于Pytorch的DRL算法实现， 2019年。
+### [DRL_beta](https://github.com/Taospirit/DRL_beta)
+自己写的算法，主打算法入门实践学习和复现。最近太忙了，没有维护细节Bug，不过基础的应该没问题。目录结构对新手都更友好, 目前还是beta版。
 ### [DRL_with_tf_Morvan](https://github.com/Taospirit/DRL_with_tf_Morvan)
-强烈推荐入门！ 莫烦大佬的基于tensorflow的DRL算法实现， 使用tf的中低层api实现网络。
+强烈推荐入门！ 莫烦大佬的基于tensorflow的DRL算法实现， 使用tf的中低层api实现网络。但是tf的代码行数真的太多了，看起来真费劲，入门还是torch好。
 ### [Hands-On-Reinforcement-Learning-with-Python](https://github.com/PacktPublishing/Hands-On-Reinforcement-Learning-with-Python)
 《用Python动手做强化学习》配套代码
 ### [tensorlayer](https://github.com/tensorlayer/tensorlayer)
@@ -80,14 +89,24 @@ OpenAI Baselines is a set of high-quality implementations of reinforcement learn
 ### [MARL-Papers](https://github.com/LantaoYu/MARL-Papers)
 多智能体的强化学习论文收集列表
 
-### DQN and variants & Rainbow:
+### 算法细节和魔改
+### DQN and variants(值分布式的DQN):
 - [DeepRL-Tutorials](https://github.com.cnpmjs.org/qfettes/DeepRL-Tutorials)
-- [Reinforcement-Implementation](https://github.com/zhangchuheng123/Reinforcement-Implementation)(张楚珩)
-- [Rainbow](https://github.com/Kaixhin/Rainbow)
+- [Reinforcement-Implementation](https://github.com/zhangchuheng123/Reinforcement-Implementation)(清华张楚珩)
+- [Rainbow](https://github.com/Kaixhin/Rainbow)，这个实现也挺老的。
+- QD-DQN： [repo1](https://github.com/BY571/QR-DQN) | [repo2](https://github.com/senya-ashukha/quantile-regression-dqn-pytorch)
+- IQN: [repo1](https://github.com/htdt/diqn)
+- FQF: [巨硬官方](https://github.com/microsoft/FQF) | [repo2](https://github.com/BY571/FQF-and-Extensions)
+
+- 整合类repo, 这里是有对上述冷门的算法统一实现: 
+    - [fqf-iqn-qrdqn](https://github.com/ku2482/fqf-iqn-qrdqn.pytorch)
+    - [Deep_RL_with_pytorch](https://github.com/sungyubkim/Deep_RL_with_pytorch)
+    - [DeepRL_PyTorch](https://github.com/Kchu/DeepRL_PyTorch)
 
 ### SAC:
 - [pytorch-soft-actor-critic](https://github.com/pranz24/pytorch-soft-actor-critic)
 - [RL-Mapless-Navigation](https://github.com/jerrywiston/RL-Mapless-Navigation)
+- [Soft-Actor-Critic-and-Extensions](https://github.com/BY571/Soft-Actor-Critic-and-Extensions)
 
 ---
 ## 2. 强化学习
