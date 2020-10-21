@@ -7,14 +7,15 @@ a  collection of DRL-repo in Github
 | 2020.1.6 | 加入keras-rl | 整理学院派资料和repo | v0.1 |
 | 2020.1.10 | 整理学院派资料， 加入baselines | todo | v0.2 |
 | 2020.10.11| 加入自己写的库和曾伊言的库 | TODO | v0.2|
-| - | - | - | - |
+| 2020.10.21 | 移除tf开发的RL库，加入Xu Zhiwei的dqn_zoo、policy_based_RL，加入ray、acme等 | todo | v0.2 |
 
-## 值得关注的github个人：
+## 值得关注有各自RL开源库的github个人：
 - [Sebastian Dittert](https://github.com/BY571)
-- [YonV1943 曾伊言](https://github.com/Yonv1943)
+- [YonV1943 曾伊言](https://github.com/Yonv1943)(中科院深圳先研院)
+- [Xu Zhiwei](https://github.com/deligentfool)(中科院自动化所)
+- [Keavnn](https://github.com/StepNeverStop)(上海大学)
 - [The Raven Chaser](https://github.com/xlnwel)
 - [Johnny He](https://github.com/sweetice)
-
 ---
 ## 0. 学院派资料(北美)
 很多资料都整理了这块的内容，我再简单的理清楚一下吧， 附带一些其他人的评价。
@@ -51,8 +52,12 @@ Deep Reinforcement Learning Course
 国外友人用精简的教程实现，附带有教程网站， 概念入门推荐。用游戏实现DRL经典算法: DQN \ DDQN \ PPO \ A2C ...
 ### [DRL_algorithms_lists](https://github.com/tigerneil/awesome-deep-rl)
 整理很完备清晰的深度强化学习算法列表
+
 ### [DRL_with_pytorch](https://github.com/Taospirit/DRL-with-pytorch)
-适合入手算法源码实践！ 中科院自动化所“老实人”用Pytorch写的DRL实现， 基础算法完整， 章节清晰， 2019年。 (最近好像大佬在准备重构hhhh)
+适合入手算法源码实践！中科院自动化所“老实人”用Pytorch写的DRL实现，基础算法完整，章节清晰，2019年。(最近好像大佬在准备重构hhhh)
+
+### [dqn_zoo](https://github.com/deligentfool/dqn_zoo) \ [policy_based_RL](https://github.com/deligentfool/policy_based_RL)
+也是中科院自动化所一个学生写的，这套代码相比上面更完整，一个算法一个文件，很适合学习。
 
 ### [ElegantRL](https://github.com/Yonv1943/ElegantRL)
 深圳先进院曾伊言的作品，主打轻量化和可复现的RL算法，3个python文件完成，适合入门\中期代码实践时参考。
@@ -61,31 +66,10 @@ Deep Reinforcement Learning Course
 另一个版本基于Pytorch的DRL算法实现， 2019年。
 ### [DRL_beta](https://github.com/Taospirit/DRL_beta)
 自己写的算法，主打算法入门实践学习和复现。最近太忙了，没有维护细节Bug，不过基础的应该没问题。目录结构对新手都更友好, 目前还是beta版。
-### [DRL_with_tf_Morvan](https://github.com/Taospirit/DRL_with_tf_Morvan)
-强烈推荐入门！ 莫烦大佬的基于tensorflow的DRL算法实现， 使用tf的中低层api实现网络。但是tf的代码行数真的太多了，看起来真费劲，入门还是torch好。
+
 ### [Hands-On-Reinforcement-Learning-with-Python](https://github.com/PacktPublishing/Hands-On-Reinforcement-Learning-with-Python)
 《用Python动手做强化学习》配套代码
-### [tensorlayer](https://github.com/tensorlayer/tensorlayer)
-**[官方]** 基于TF2.0开发的全套 [DRL算法库(面向科研)](https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning) 和 [高层抽象算法库(面向产品化)](https://github.com/tensorlayer/RLzoo).  仿真环境基于gym。
 
-鉴于当前(2020.01.08) TF2.0的稳定性, 该库待优化和验证， 可用于后期学习。
-### [DRL_for_Keras](https://github.com/keras-rl/keras-rl)
-高阶api实现的各种state-of-art的DRL算法，提供封装好的接口直接使用。[主页文档](https://keras-rl.readthedocs.io/en/latest/)
-### [baselines](https://github.com/openai/baselines)
-OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
-
-**[官方]** 官方上台， 吊打一切。 2017年开发，openai自己写的DRL实现库， 代码比较晦涩难懂， 但恰如其名。安装时注意MuJoCo的环境依赖。
-
-### [Stable Baselines](https://github.com/hill-a/stable-baselines)
-基于openai的baselines做的稳定版开发， 适合全面学习。 [主页文档](https://stable-baselines.readthedocs.io/en/master/)
-- Unified structure for all algorithms
-- PEP8 compliant (unified code style)
-- Documented functions and classes
-- More tests & more code coverage
-- Additional algorithms: SAC and TD3 (+ HER support for DQN, DDPG, SAC and TD3)
-
-### [rl-baselines-zoo](https://github.com/araffin/rl-baselines-zoo) 
-基于baseline，已经训练好的库。推荐中期学习使用
 ### [MARL-Papers](https://github.com/LantaoYu/MARL-Papers)
 多智能体的强化学习论文收集列表
 
@@ -106,7 +90,9 @@ OpenAI Baselines is a set of high-quality implementations of reinforcement learn
 ### SAC:
 - [pytorch-soft-actor-critic](https://github.com/pranz24/pytorch-soft-actor-critic)
 - [RL-Mapless-Navigation](https://github.com/jerrywiston/RL-Mapless-Navigation)
+  - RL做导航的不要错过，一个小玩意儿，里面有SAC\PPO\DDPG
 - [Soft-Actor-Critic-and-Extensions](https://github.com/BY571/Soft-Actor-Critic-and-Extensions)
+  - 这是个德国RL技术爱好者开发的库
 
 ---
 ## 2. 强化学习
@@ -144,7 +130,7 @@ sutton第二版书的配套章节代码实现和学习
 ## TODO...
 
 ---
-## 3. Scalable/Distributed RL 框架:
+## 3. Scalable/Distributed RL:
 ### 1. APE-X
 - 用多个actor分布式的运行，加快学习效率
 - 引入分布式的PER，结合不同epsilon增加探索性
@@ -200,6 +186,37 @@ A set of high-dimensional continuous control environments for use with Unity ML-
 - [ReinforcementLearning-AtariGame](https://github.com/Nasdin/ReinforcementLearning-AtariGame)
 
 
-## 6.企业发布的框架
-1. PARL
-- [PARL](https://github.com/PaddlePaddle/PARL)
+## 6.企业\组织的RL开源框架\教程
+### [SpinningUp](https://github.com/openai/spinningup)
+- OpenAI开发的，学习向的教程
+- 学习教程[地址](https://spinningup.openai.com/en/latest/)
+- 从基础入门到算法核心思想
+  
+### [Baselines](https://github.com/openai/baselines)
+- OpenAI Baselines is a set of high-quality implementations of reinforcement learning algorithms.
+- 恰如起名，通常用它来跑对比实验。
+
+### [Stable Baselines](https://github.com/hill-a/stable-baselines)
+- 其他人基于openai的baselines做的稳定版开发， 适合全面学习。 
+- [主页文档](https://stable-baselines.readthedocs.io/en/master/)
+  - Unified structure for all algorithms
+  - PEP8 compliant (unified code style)
+  - Documented functions and classes
+  - More tests & more code coverage
+  - Additional algorithms: SAC and TD3 (+ HER support for DQN, DDPG, SAC and TD3)
+
+### [rl-baselines-zoo](https://github.com/araffin/rl-baselines-zoo) 
+- 基于baseline，已经训练好的库。推荐中期学习使用
+
+### [PARL](https://github.com/PaddlePaddle/PARL)
+- 百度基于飞浆开发的，基本的model-free算法都有，百度的Ai studio上有很多实现博客
+- PARL团队成员视频教程-[世界冠军带你从零实践强化学习
+](https://www.bilibili.com/video/BV1yv411i7xd?from=search&seid=11557033818103338762)
+
+### [Ray](https://github.com/ray-project/ray)
+- UCB基于RLlib开源的算法库，很全面和精深
+- 学起来也很难，比较偏向工业界？
+
+### [Acme](https://github.com/deepmind/acme)
+- DeepMind
+- 主打分布式强化学习
